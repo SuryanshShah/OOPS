@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class duplicates {
     public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
-        int a= new int [10];
+        int [] a= new int [10];
         int i=0,c=0;
         for(i=0;i<10;i++){
             System.out.println("Enter the elements for the Array");
@@ -23,5 +23,6 @@ public class duplicates {
         System.out.println("The array contains "+c+" duplicate elements");
     else
           System.out.println("The array does not contains duplicate elements");       
+    scr.close();
     }
 }

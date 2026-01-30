@@ -13,4 +13,5 @@ public class Arrayinput {
             System.out.println(a[i]);
         }
         scr.close();
+    }
 }
